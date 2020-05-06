@@ -1,0 +1,39 @@
+.projects {
+  &-intro {
+    padding: 3% 0%;
+
+    #first {
+      padding: 7% 6% 3% !important;
+    }
+
+    &-headForm {
+      text-align: center;
+      font-size: 3em !important;
+      font-weight: bold !important;
+      padding: 3% 0%;
+
+      @include bp-medium {
+        font-size: 2em;
+      }
+    }
+  }
+
+  &-mainContent {
+    text-align: center;
+    margin: 0 5%;
+
+    &-content {
+      &-handPointer {
+        display:none;
+
+        @include bp-medium {
+          display: inline;
+        }
+      }
+
+      &-extra {
+        padding-top: 3%;
+      }
+    }
+  }
+}

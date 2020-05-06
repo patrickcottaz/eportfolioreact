@@ -1,0 +1,75 @@
+@import "reset";
+@import "gridFoundation";
+@import "breakpoints";
+@import "fonts";
+@import "variables";
+
+// Common includes
+@import "buttonCta";
+@import "LocaleSwitcher";
+// Components
+@import "header";
+@import "footer";
+@import "buttonStickyContact";
+@import "particles";
+@import "contactForm";
+@import "carouselTechnos";
+@import "projectsModal";
+
+//Pages
+@import "home";
+@import "notfound";
+@import "contact";
+@import "projects";
+@import "technos";
+@import "about";
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  // color: $orange;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+::selection {
+  background: $light-orange;
+}
+
+body {
+  -webkit-touch-callout: none !important;
+  padding: 0;
+  margin: 0;
+  // font-family: 'open_sans';
+  // font-weight: 400;
+  cursor: url('../img/cursor.png'), auto;
+
+  &.noScroll {
+    overflow: hidden;
+  }
+
+  #root {
+    overflow: hidden;
+    height: auto;
+  }
+}
+
+.pushTop {
+  padding-top: 50px;
+
+  @include bp-large {
+    padding-top: 75px;
+  }
+
+  @include bp-small {
+    padding-top: 50px;
+  }
+}

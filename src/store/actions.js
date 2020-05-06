@@ -1,0 +1,1 @@
+export const SETOPEN_LOCALE = 'SETOPEN_LOCALE';

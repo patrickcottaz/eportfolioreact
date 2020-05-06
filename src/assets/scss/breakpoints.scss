@@ -1,0 +1,55 @@
+$break-xxs: 340px;
+$break-xs: 450px;
+$break-small: 640px;
+$break-medium: 812px;
+$break-large: 1024px;
+$break-xlarge: 1280px;
+$break-xxlarge: 1400px;
+
+@mixin bp-xxlarge {
+  @media only screen and (max-width: $break-xxlarge) {
+    @content;
+  }
+}
+
+@mixin bp-xlarge {
+  @media only screen and (max-width: $break-xlarge) {
+    @content;
+  }
+}
+
+@mixin bp-large {
+  @media only screen and (max-width: $break-large) {
+    @content;
+  }
+}
+
+@mixin bp-medium {
+  @media only screen and (max-width: $break-medium) {
+    @content;
+  }
+}
+
+@mixin bp-small {
+  @media only screen and (max-width: $break-small) {
+    @content;
+  }
+}
+
+@mixin bp-xs {
+  @media only screen and (max-width: $break-xs) {
+    @content;
+  }
+}
+
+@mixin bp-xxs {
+  @media only screen and (max-width: $break-xxs) {
+    @content;
+  }
+}
+
+@mixin bp-forLarge {
+  @media only screen and (min-width: 1024px) {
+    @content;
+  }
+}

@@ -1,0 +1,35 @@
+.stickyContact {
+  position: fixed;
+  bottom: 75px;
+  right: 40px;
+  z-index: 3;
+  background-color: #111;
+  text-transform: uppercase;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  // font-family: 'Montserrat', sans-serif;
+  transition: background-color 0.3s;
+  border-radius: 30px;
+  font-weight:600;
+  border: 2px solid $dark-orange;
+  cursor: url('../img/cursor.png'), auto;
+
+  &:hover {
+    background-color: $dark-orange;
+  }
+
+  &:visited, &:active, &:focus{
+    // text-decoration:none;
+    color: $white;
+  }
+
+  @include bp-small {
+    display: none;
+  }
+}

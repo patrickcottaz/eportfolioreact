@@ -1,0 +1,40 @@
+.technosCarousel {
+  padding-top: 5%;
+
+  @include bp-small {
+    padding-bottom: 10%;
+  }
+
+  &-sliderLegend {
+    text-align: center;
+    padding-top: 8%;
+    opacity: 0;
+    transition: 0.8s;
+
+    @include bp-small {
+      display: none;
+    }
+  }
+}
+
+.BrainhubCarouselItem {
+
+  img {
+    width: 50% !important;
+    margin: 0 auto !important;
+    user-select: none !important; /* Standard syntax */
+
+    @include bp-small {
+      width: 70% !important;
+    }
+
+    &:hover~.technosCarousel-sliderLegend {
+      display: block !important;
+      opacity: 1 !important;
+
+      @include bp-small {
+        display: none !important;
+      }
+    }
+  }
+}

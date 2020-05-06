@@ -1,0 +1,202 @@
+  <svg id="svgMobile" xmlns="http://www.w3.org/2000/svg" width="362" height="1204" viewBox="0 0 362 1204">
+    <defs>
+      <style>
+      .cls-1 {
+        fill: #b65534;
+        stroke: #fcfcfc;
+      }
+
+      .cls-1, .cls-10, .cls-2, .cls-3 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-10, .cls-2 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke: #fff;
+      }
+
+      .cls-3 {
+        fill: #ede060;
+      }
+
+      .cls-10, .cls-3 {
+        stroke: #000;
+      }
+
+      .cls-4 {
+        fill: #e2c810;
+      }
+
+      .cls-5 {
+        font-size: 15.24px;
+      }
+
+      .cls-5, .cls-6, .cls-7, .cls-8 {
+        fill: #fff;
+        font-family: Segoe UI;
+      }
+
+      .cls-6 {
+        font-size: 11.76px;
+      }
+
+      .cls-7 {
+        font-size: 12.43px;
+      }
+
+      .cls-8 {
+        font-size: 15.17px;
+      }
+
+      .cls-9 {
+        letter-spacing: -1px;
+      }
+
+      #svgMobile {
+        overflow: inherit;
+      }
+
+      </style>
+    </defs>
+    <rect class="cls-1" x="0.5" y="0.5" width="241" height="1203" />
+    <rect class="cls-1" x="0.5" y="0.5" width="241" height="1203" />
+    <polyline class="cls-1" points="0 0.5 60.5 0.5 60.5 1202" />
+    <polyline class="cls-1" points="121.5 1202 121.5 0.5 61 0.5" />
+    <polyline class="cls-1" points="122 0.5 182.5 0.5 182.5 1204" />
+    <line class="cls-1" y1="43.5" x2="241" y2="43.5" />
+    <line class="cls-1" y1="1051.5" x2="241" y2="1051.5" />
+    <line class="cls-1" y1="86.5" x2="241" y2="86.5" />
+    <line class="cls-1" y1="1092.5" x2="241" y2="1092.5" />
+    <line class="cls-2" x1="30.5" y1="6" x2="30.5" y2="38" />
+    <line class="cls-2" x1="87.5" y1="6" x2="87.5" y2="38" />
+    <line class="cls-2" x1="199.5" y1="6" x2="199.5" y2="38" />
+    <line class="cls-2" x1="96.5" y1="6" x2="96.5" y2="38" />
+    <line class="cls-2" x1="206.46" y1="6.82" x2="216.42" y2="36.83" />
+    <line class="cls-2" x1="224.72" y1="6.57" x2="216.43" y2="36.85" />
+    <line class="cls-2" x1="143.5" y1="6" x2="143.5" y2="38" />
+    <line class="cls-2" x1="152.5" y1="6" x2="152.5" y2="38" />
+    <line class="cls-2" x1="161.5" y1="6" x2="161.5" y2="38" />
+    <polyline class="cls-3" points="248 274.5 162.5 274.5 162.5 193.5 346.5 193.5 346.5 274.5 259.5 274.5 259.5 302.5 247.5 302.5 247.5 275" />
+    <rect class="cls-4" x="168.14" y="198.35" width="170.8" height="68.23" />
+    <rect x="175.37" y="205.58" width="158.6" height="22.14" />
+    <rect x="175.37" y="236.75" width="158.6" height="22.14" />
+    <g>
+      <polyline class="cls-2" points="191 239.5 199.5 239.5 199.5 247.5 190.5 247.5 190.5 254.5 199 254.5" />
+      <polyline class="cls-2" points="233 239.5 226.5 239.5 226.5 247.5 233.5 247.5 233.5 254.5 227 254.5" />
+      <rect class="cls-2" x="204.5" y="239.5" width="8" height="15" />
+      <line class="cls-2" x1="219.5" y1="239" x2="219.5" y2="255" />
+      <polyline class="cls-2" points="277 239.5 284.5 239.5 284.5 247.5 276.5 247.5 276.5 254.5 284 254.5" />
+      <rect class="cls-2" x="289.5" y="239.5" width="8" height="15" />
+      <line class="cls-2" x1="305.5" y1="239" x2="305.5" y2="255" />
+      <polyline class="cls-2" points="310 239.5 318.5 239.5 318.5 255" />
+      <line class="cls-2" x1="264" y1="247.5" x2="247" y2="247.5" />
+    </g>
+    <text class="cls-5" transform="translate(183.43 221.41)">DUT MMI GRENOBLE</text>
+    <polyline class="cls-3" points="250 548.5 158.5 548.5 158.5 464.5 352.5 464.5 352.5 548.5 261.5 548.5 261.5 577.5 249.5 577.5 249.5 549" />
+    <rect class="cls-4" x="164.84" y="468.41" width="180.49" height="72.1" />
+    <rect x="172.48" y="476.05" width="167.6" height="23.4" />
+    <rect x="172.48" y="509" width="167.6" height="23.4" />
+    <polyline class="cls-2" points="197 513.5 204.5 513.5 204.5 520.5 196.5 520.5 196.5 527.5 204 527.5" />
+    <rect class="cls-2" x="209.5" y="513.5" width="7" height="14" />
+    <line class="cls-2" x1="223.5" y1="513" x2="223.5" y2="529" />
+    <polyline class="cls-2" points="277 513.5 282.5 513.5 282.5 520.5 276.5 520.5 276.5 527.5 282 527.5" />
+    <rect class="cls-2" x="289.5" y="513.5" width="6" height="14" />
+    <line class="cls-2" x1="304.5" y1="513" x2="304.5" y2="529" />
+    <polyline class="cls-2" points="229 513.5 237.5 513.5 237.5 529" />
+    <line class="cls-2" x1="264" y1="520.5" x2="249" y2="520.5" />
+    <rect class="cls-2" x="309.5" y="513.5" width="8" height="14" />
+    <line class="cls-2" x1="316" y1="520.5" x2="309" y2="520.5" />
+    <text class="cls-6" transform="translate(178.5 491.88)">LICENCE PRO WEB GRENOBLE</text>
+    <path class="cls-2" d="M277.1,888.17" transform="translate(-50 -32)" />
+    <polyline class="cls-3" points="243 791.5 156.5 791.5 156.5 711.5 341.5 711.5 341.5 791.5 254.5 791.5 254.5 819.5 241.5 819.5 241.5 793" />
+    <rect class="cls-4" x="163.14" y="716.61" width="170.26" height="68.01" />
+    <rect x="170.35" y="723.82" width="158.1" height="22.07" />
+    <rect x="170.35" y="754.9" width="158.1" height="22.07" />
+    <line class="cls-2" x1="260" y1="766.5" x2="250" y2="766.5" />
+    <polyline class="cls-2" points="212 759.5 216.5 759.5 216.5 766.5 211.5 766.5 211.5 771.5 216 771.5" />
+    <rect class="cls-2" x="220.5" y="759.5" width="7" height="12" />
+    <rect class="cls-2" x="179.5" y="759.5" width="6" height="12" />
+    <line class="cls-2" x1="235.5" y1="759" x2="235.5" y2="772" />
+    <line class="cls-2" x1="206.26" y1="759.48" x2="200.19" y2="772.07" />
+    <rect class="cls-2" x="239.5" y="759.5" width="6" height="12" />
+    <line class="cls-2" x1="245" y1="766.5" x2="239" y2="766.5" />
+    <polyline class="cls-2" points="192 771.5 196.5 771.5 196.5 759.5 189.53 759.5 189.56 766.5 195 766.5" />
+    <polyline class="cls-2" points="285 759.5 290.5 759.5 290.5 766.5 284.5 766.5 284.5 771.5 290 771.5" />
+    <rect class="cls-2" x="294.5" y="759.5" width="9" height="12" />
+    <line class="cls-2" x1="308.5" y1="759" x2="308.5" y2="772" />
+    <line class="cls-2" x1="263.5" y1="759" x2="263.5" y2="772" />
+    <line class="cls-2" x1="268.5" y1="759" x2="268.5" y2="772" />
+    <line class="cls-2" x1="280.55" y1="759.48" x2="274.48" y2="772.07" />
+    <rect class="cls-2" x="313.5" y="759.5" width="8" height="12" />
+    <line class="cls-2" x1="322" y1="766.5" x2="314" y2="766.5" />
+    <text class="cls-7" transform="translate(178 738.42)">3W ACADEMY GRENOBLE</text>
+    <polyline class="cls-3" points="244 1023.5 157.5 1023.5 157.5 943.5 342.5 943.5 342.5 1023.5 255.5 1023.5 255.5 1051.5 242.5 1051.5 242.5 1025" />
+    <rect class="cls-4" x="164.14" y="948.61" width="170.26" height="68.01" />
+    <rect x="171.35" y="955.82" width="158.1" height="22.07" />
+    <rect x="171.35" y="986.9" width="158.1" height="22.07" />
+    <text class="cls-8" transform="translate(182.38 971.73)">NEW DEV. FRONT JR</text>
+    <path class="cls-10" d="M363.79,1204.26" transform="translate(-50 -32)" />
+    <g>
+      <polyline class="cls-2" points="232 993.5 226.5 993.5 226.5 999.5 232.5 999.5 232.5 1003.5 227 1003.5" />
+      <line class="cls-2" x1="289.5" y1="993" x2="289.5" y2="1004" />
+      <g>
+        <polyline class="cls-2" points="174 1003.5 180.5 1003.5 180.5 998.42 180.5 993.5 174 993.5" />
+        <line class="cls-2" x1="180" y1="999.5" x2="174" y2="999.5" />
+      </g>
+      <g>
+        <polyline class="cls-2" points="204 1003.5 197.5 1003.5 197.5 997.98 197.5 993.5 204 993.5" />
+        <line class="cls-2" x1="198" y1="999.5" x2="204" y2="999.5" />
+      </g>
+      <g>
+        <polyline class="cls-2" points="247 1003.5 240.5 1003.5 240.5 997.98 240.5 993.5 248 993.5" />
+        <line class="cls-2" x1="241" y1="999.5" x2="247" y2="999.5" />
+      </g>
+      <g>
+        <polyline class="cls-2" points="276 1003.5 269.5 1003.5 269.5 997.98 269.5 993.5 276 993.5" />
+        <line class="cls-2" x1="269" y1="999.5" x2="276" y2="999.5" />
+      </g>
+      <g>
+        <polyline class="cls-2" points="299 1003.5 292.5 1003.5 292.5 997.98 292.5 993.5 300 993.5" />
+        <line class="cls-2" x1="293" y1="999.5" x2="299" y2="999.5" />
+      </g>
+      <g>
+        <polyline class="cls-2" points="327 1003.5 320.5 1003.5 320.5 997.98 320.5 993.5 328 993.5" />
+        <line class="cls-2" x1="321" y1="999.5" x2="327" y2="999.5" />
+      </g>
+      <polyline class="cls-2" points="318 1003.5 311.5 1003.5 311.5 997.98 311.5 993.5 319 993.5" />
+      <g>
+        <polyline class="cls-2" points="185.34 992.37 189.3 998.47 193.22 992.41" />
+        <line class="cls-2" x1="190.5" y1="999" x2="190.5" y2="1004" />
+      </g>
+      <g>
+        <polyline class="cls-2" points="213.5 1004 213.5 993.5 206.5 993.5 206.5 998.67 206.5 1004" />
+        <line class="cls-2" x1="213" y1="999.5" x2="206" y2="999.5" />
+      </g>
+      <g>
+        <polyline class="cls-2" points="258.5 1004 258.5 998.67 258.5 993.5 265.5 993.5 265.5 1000" />
+        <line class="cls-2" x1="258" y1="999.5" x2="265" y2="999.5" />
+      </g>
+      <g>
+        <g>
+          <polyline class="cls-2" points="216.5 1004 216.5 998.67 216.5 993.5 223.5 993.5 223.5 1000" />
+          <line class="cls-2" x1="216" y1="999.5" x2="223" y2="999.5" />
+        </g>
+        <line class="cls-2" x1="221.5" y1="1000" x2="221.5" y2="1004" />
+      </g>
+      <g>
+        <g>
+          <polyline class="cls-2" points="278.5 1004 278.5 998.67 278.5 993.5 285.5 993.5 285.5 1000" />
+          <line class="cls-2" x1="278" y1="999.5" x2="285" y2="999.5" />
+        </g>
+        <line class="cls-2" x1="283.5" y1="1000" x2="283.5" y2="1004" />
+      </g>
+      <g>
+        <line class="cls-2" x1="249.22" y1="1003.87" x2="256.21" y2="992.89" />
+        <line class="cls-2" x1="256.21" y1="1003.87" x2="249.22" y2="992.89" />
+      </g>
+      <polyline class="cls-2" points="303.5 1004 303.5 993.5 309.5 993.5 309.5 1004" />
+    </g>
+  </svg>

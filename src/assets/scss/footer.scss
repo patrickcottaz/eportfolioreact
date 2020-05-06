@@ -1,0 +1,51 @@
+.footer {
+  background-color: black;
+  padding: 1% 0;
+  text-align: center;
+
+  #switcher {
+    span {
+      cursor: url('../img/cursor.png'), auto;
+      color: $white;
+    }
+
+    @include bp-medium {
+      margin-top: 10px;
+    }
+  }
+
+  &-markdown {
+
+    text-align: right;
+
+    @include bp-medium {
+      text-align: center;
+    }
+  }
+
+  &-heart {
+    color: red;
+  }
+
+  &-switcher {
+    cursor: pointer;
+
+    &-flag {
+      margin-right: 10px;
+      display: inline;
+    }
+
+    a {
+      color: #fff;
+      display: flex;
+    }
+  }
+
+  p {
+    color: $light-grey;
+
+    @include bp-small {
+      margin: 5%;
+    }
+  }
+}

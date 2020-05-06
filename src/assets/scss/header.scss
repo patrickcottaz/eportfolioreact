@@ -1,0 +1,70 @@
+.navbar {
+  min-height: 5rem;
+  background-color: $light-black;
+  position: fixed;
+  z-index: 80;
+  width: 100%;
+
+  @include bp-large {
+    min-height: inherit;
+  }
+
+  &-brand {
+    margin-left: 2%;
+  }
+
+  &-menu {
+    padding: 0;
+  }
+
+  &-end {
+    background-color: $light-black;
+  }
+
+  &-item {
+    font-size: 1.5em;
+    color: $white;
+    transition: color 0.4s;
+    padding: 20px 40px;
+    cursor: url('../img/cursor.png'), auto !important;
+
+    &-logo {
+      height: 100%;
+      padding: 0;
+
+      img {
+        width: 50%;
+        max-height: 70%;
+
+        @include bp-large {
+          width: 35%;
+        }
+      }
+    }
+
+    &-focus {
+      &:hover {
+        color: $orange !important;
+        background-color: inherit !important;
+      }
+
+      &:focus {
+        color: $white !important;
+        background-color: $light-brown !important;
+      }
+
+      &:active {
+        color: $white !important;
+        background-color: $light-brown !important;
+      }
+    }
+
+    &-activestyle {
+      background-color: $light-brown !important;
+
+      &:hover {
+        color: $orange !important;
+      }
+    }
+  }
+}
