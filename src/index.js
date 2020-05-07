@@ -15,6 +15,7 @@ import reducer from './store/reducer';
 library.add(faRunning, faCoffee, faHandPeace, faHandPointer, faPaperPlane, faCode, faArrowDown, faThumbsUp, faArrowRight);
 
 const store = createStore(reducer);
+
 store.subscribe(() => {
   // console.log(store.getState());
 });

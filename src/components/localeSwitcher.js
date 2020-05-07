@@ -5,6 +5,7 @@ import i18n from 'i18next';
 
 import * as actionTypes from '../store/actions';
 import { connect } from 'react-redux';
+import { localePlugin } from '../plugins/localisation';
 
 const LocalizationConst = require('../const');
 
@@ -74,10 +75,8 @@ class LocaleSwitcher extends React.Component {
 
   changeLanguage(lng) {
     i18n.changeLanguage(lng);
-    setTimeout(() => {
-      document.location.reload();
-      window.scrollTo(0, 0);
-    }, 500);
+    this.props.setCurrentLocale(localePlugin.activeLocale(i18n.language));
+    window.scrollTo(0, 0);
   }
 
   render() {
@@ -88,7 +87,7 @@ class LocaleSwitcher extends React.Component {
           <img className="localeSelector-ctt-close" src={require('../assets/svg/icon-close.svg')} onClick={() => {this.props.setOpenLocale(false)}} alt="" />
           {
             this.state.locales.map((locale, index) =>
-              <button key={index} className="localeSelector-ctt-lang" to="locale.path" onClick={() =>  { this.changeLanguage(locale.isoFlag); this.props.setOpenLocale(false) }}>
+              <button key={index} className="localeSelector-ctt-lang" onClick={() =>  { this.changeLanguage(locale.isoFlag); this.props.setOpenLocale(false) }}>
                 <div className="localeSelector-ctt-lang-flag">
                   <Flag iso={locale.isoFlag} squared={true} />
                 </div>
@@ -113,6 +112,8 @@ const mapStateToProps = state => {
 const mapDispatchToProps = dispatch => {
   return {
     setOpenLocale: (value) => dispatch({type: actionTypes.SETOPEN_LOCALE, value: value}),
+    setCurrentLocale: (value) => dispatch({ type: actionTypes.SET_CURRENT_LOCALE, value: value }),
+
   };
 };
 
