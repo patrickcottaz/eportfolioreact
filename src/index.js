@@ -8,13 +8,19 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faRunning, faCoffee, faHandPeace, faHandPointer, faPaperPlane, faCode, faArrowDown, faArrowRight, faThumbsUp } from '@fortawesome/free-solid-svg-icons';
-import { createStore } from 'redux';
+import { createStore, combineReducers } from 'redux';
+import { localesReducer } from './store/reducers/locales';
+import { openModalReducer } from './store/reducers/openmodal';
 import { Provider } from 'react-redux';
-import reducer from './store/reducer';
 
 library.add(faRunning, faCoffee, faHandPeace, faHandPointer, faPaperPlane, faCode, faArrowDown, faThumbsUp, faArrowRight);
 
-const store = createStore(reducer);
+const rootReducer = combineReducers({
+  locales: localesReducer,
+  modale: openModalReducer
+});
+
+const store = createStore(rootReducer);
 
 store.subscribe(() => {
   // console.log(store.getState());

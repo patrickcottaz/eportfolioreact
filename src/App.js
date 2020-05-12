@@ -61,9 +61,9 @@ class App extends React.Component {
 
 const mapStateToProps = state => {
   return {
-    defaultLocale: state.defaultLocale,
-    activeLocale: state.locale,
-    locales: state.locales
+    defaultLocale: state.locales.defaultLocale,
+    activeLocale: state.locales.locale,
+    locales: state.locales.locales
   };
 };
 

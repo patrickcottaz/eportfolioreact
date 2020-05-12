@@ -105,7 +105,7 @@ class LocaleSwitcher extends React.Component {
 
 const mapStateToProps = state => {
   return {
-    openLocale: state.openLocale
+    openLocale: state.modale.openLocale
   };
 };
 

@@ -1,19 +1,13 @@
-import * as actionTypes from './actions';
+import * as actionTypes from '../actions';
 
 const initialState = {
-  openLocale: false,
   locale: {},
   defaultLocale: {},
   locales: [],
 };
 
-const reducer = (state = initialState, action) => {
+export const localesReducer = (state = initialState, action) => {
   switch (action.type) {
-    case actionTypes.SETOPEN_LOCALE:
-      return {
-        ...state,
-        openLocale: action.value
-      };
     case actionTypes.SET_CURRENT_LOCALE:
       return {
         ...state,
@@ -33,5 +27,3 @@ const reducer = (state = initialState, action) => {
       return state;
   }
 };
-
-export default reducer;
