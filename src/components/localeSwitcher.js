@@ -3,7 +3,7 @@ import { Flag } from './flag';
 
 import i18n from 'i18next';
 
-import * as actionTypes from '../store/actions';
+import * as actionCreators from '../store/actions/index';
 import { connect } from 'react-redux';
 import { localePlugin } from '../plugins/localisation';
 
@@ -111,8 +111,8 @@ const mapStateToProps = state => {
 
 const mapDispatchToProps = dispatch => {
   return {
-    setOpenLocale: (value) => dispatch({type: actionTypes.SETOPEN_LOCALE, value: value}),
-    setCurrentLocale: (value) => dispatch({ type: actionTypes.SET_CURRENT_LOCALE, value: value }),
+    setOpenLocale: (value) => dispatch(actionCreators.setOpenLocale(value)),
+    setCurrentLocale: (value) => dispatch(actionCreators.setCurrentLocale(value)),
 
   };
 };

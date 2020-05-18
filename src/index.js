@@ -8,7 +8,8 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { faRunning, faCoffee, faHandPeace, faHandPointer, faPaperPlane, faCode, faArrowDown, faArrowRight, faThumbsUp } from '@fortawesome/free-solid-svg-icons';
-import { createStore, combineReducers } from 'redux';
+import { createStore, combineReducers, compose, applyMiddleware } from 'redux';
+import thunk from 'redux-thunk';
 import { localesReducer } from './store/reducers/locales';
 import { openModalReducer } from './store/reducers/openmodal';
 import { Provider } from 'react-redux';
@@ -20,7 +21,7 @@ const rootReducer = combineReducers({
   modale: openModalReducer
 });
 
-const store = createStore(rootReducer);
+const store = createStore(rootReducer, compose(applyMiddleware(thunk)));
 
 store.subscribe(() => {
   // console.log(store.getState());

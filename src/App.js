@@ -5,7 +5,7 @@ import LocaleSwitcher from './components/localeSwitcher';
 import { Switch, Route, BrowserRouter as Router } from 'react-router-dom'
 import i18n from 'i18next';
 
-import * as actionTypes from './store/actions';
+import * as actionCreators from './store/actions/index';
 import { connect } from 'react-redux';
 
 import { ScrollToTop } from './components/scrollTop';
@@ -69,9 +69,9 @@ const mapStateToProps = state => {
 
 const mapDispatchToProps = dispatch => {
   return {
-    setCurrentLocale: (value) => dispatch({ type: actionTypes.SET_CURRENT_LOCALE, value: value }),
-    setDefaultLocale: (value) => dispatch({ type: actionTypes.SET_DEFAULT_LOCALE, value: value }),
-    setLocales: (value) => dispatch({ type: actionTypes.SET_LOCALES, value: value }),
+    setCurrentLocale: (value) => dispatch(actionCreators.setCurrentLocale(value)),
+    setDefaultLocale: (value) => dispatch(actionCreators.setDefaultLocale(value)),
+    setLocales: (value) => dispatch(actionCreators.setLocales(value)),
   };
 };
 

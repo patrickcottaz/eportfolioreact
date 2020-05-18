@@ -2,7 +2,7 @@ import React from 'react';
 import i18n from "i18next";
 
 import { Flag } from './flag';
-import * as actionTypes from '../store/actions';
+import * as actionCreators from '../store/actions/index';
 import { connect } from 'react-redux';
 
 class Footer extends React.Component {
@@ -35,7 +35,7 @@ const mapStateToProps = state => {
 
 const mapDispatchToProps = dispatch => {
   return {
-    setOpenLocale: (value) => dispatch({type: actionTypes.SETOPEN_LOCALE, value: value}),
+    setOpenLocale: (value) => dispatch(actionCreators.setOpenLocale(value)),
   };
 };
 
